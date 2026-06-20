@@ -741,12 +741,7 @@ display: flex;
     font-weight: 600;
 }
 
-/*.contact-text p{
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-}*/
+
 .contact-list {
     margin-bottom: 3rem;
 }
@@ -766,6 +761,16 @@ display: flex;
     transition: all .40s ease;
     padding: 10px;
 }
+
+.contact-list a {
+    color: #ededed; /* or white (#fff) */
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: #00eeff; /* optional hover color to match your theme */
+}
+
 
 
 .contact-icons i {
