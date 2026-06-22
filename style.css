@@ -1088,7 +1088,7 @@ display: flex;
     .bar .info .addpy::before{
         content: "75%";
     }
-    .bar .info .addjava::before{
+    .bar .info .addjavascript::before{
         content: "70%";
     }
     .bar .info .addc::before{
