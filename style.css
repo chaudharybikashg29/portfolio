@@ -1089,10 +1089,10 @@ display: flex;
         content: "75%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "70%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "80%";
     }
 
     /*project*/
@@ -1282,10 +1282,10 @@ display: flex;
         content: "75%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "70%";
     }
     .bar .info .addc::before{
-        content: "90%";
+        content: "80%";
     }
 
     /*project*/
