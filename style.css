@@ -1081,18 +1081,23 @@ display: flex;
     }
     .bar .info .addhtml::before{
         content: "90%";
+         margin-left:50px;
     }
     .bar .info .addcss::before{
         content: "80%";
+         margin-left:50px;
     }
     .bar .info .addpy::before{
         content: "75%";
+         margin-left:50px;
     }
     .bar .info .addjavascript::before{
-        content: "/t70%";
+        content: "70%";
+         margin-left:50px;
     }
     .bar .info .addc::before{
         content: "80%";
+         margin-left:50px;
     }
 
     /*project*/
@@ -1274,18 +1279,23 @@ display: flex;
     }
     .bar .info .addhtml::before{
         content: "90%";
+         margin-left:50px;
     }
     .bar .info .addcss::before{
         content: "80%";
+         margin-left:50px;
     }
     .bar .info .addpy::before{
         content: "75%";
+         margin-left:50px;
     }
-    .bar .info .addjava::before{
+    .bar .info .addjavascript::before{
         content: "70%";
+         margin-left:50px;
     }
     .bar .info .addc::before{
         content: "80%";
+         margin-left:50px;
     }
 
     /*project*/
