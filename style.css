@@ -1089,7 +1089,7 @@ display: flex;
         content: "75%";
     }
     .bar .info .addjavascript::before{
-        content: "70%";
+        content: "/t70%";
     }
     .bar .info .addc::before{
         content: "80%";
