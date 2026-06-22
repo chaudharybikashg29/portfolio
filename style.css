@@ -1285,7 +1285,7 @@ display: flex;
         content: "50%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "90%";
     }
 
     /*project*/
