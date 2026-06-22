@@ -382,7 +382,7 @@ display: flex;
 }
 
 .progress-line.cpls span {
-    width: 50%;
+    width: 80%;
 }
 
 .progress-line span::after {
@@ -415,7 +415,7 @@ display: flex;
 }
 
 .progress-line.cpls span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line span::before {
