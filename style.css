@@ -378,7 +378,7 @@ display: flex;
 }
 
 .progress-line.java span {
-    width: 50%;
+    width: 90%;
 }
 
 .progress-line.cpls span {
