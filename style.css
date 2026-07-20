@@ -209,27 +209,31 @@ display: flex;
 }
 
 .about-img {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    background: cover ;
+  
+
+    width: 350px;
+    height: 350px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 5px solid #0ef;
+    box-shadow:
+        0 0 15px #0ef,
+        0 0 30px rgba(0, 238, 255, 0.5);
+
+    opacity: 0;
+    animation: slideUP 1s ease forwards;
+    animation-delay: 1s;
 }
 
 
 .abt-res {
-    width: 350px;
-    height: 350px;
-
-    object-fit: cover;
-    object-position: center;
-
-    border-radius: 50%;
-
-    border: 5px solid #0ef;
-
-    box-shadow:
-        0 0 15px #0ef,
-        0 0 35px rgba(0, 238, 255, 0.5);
+    
+          width: 100%;
+    height: 100%;
+   border-radius: 50%;
+   object-fit: cover;
 }
 .abt-res:hover {
     transform: scale(1.03);
@@ -950,7 +954,8 @@ display: flex;
     .abt-res {
         width: 220px;
         height: 220px;
-    }
+        box-shadow:none;
+    } 
 
     .about {
         flex-direction: column;
@@ -975,6 +980,7 @@ display: flex;
         width: 250%;
         margin-bottom: -20%;
     }
+  
     .logo {
         position: relative;
         font-size: 20px;
@@ -1023,8 +1029,8 @@ display: flex;
         font-size: 18px;
         font-weight: 200;
     }
-  
-         .img {
+    
+     .img {
         width: 220px;
         height: 220px;
 
@@ -1050,7 +1056,25 @@ display: flex;
         font-size: 30px;
         letter-spacing: 5px;
     }
-    
+      .about-img{
+        margin-top: -200px;
+        margin-bottom: -0%;
+        height: auto;
+        width: 250%;
+        margin-bottom: -20%;
+    }
+     .about-img {
+        width: 220px;
+        height: 220px;
+
+        margin: 50px auto;
+         
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
     .about-text p {
         font-size: 15px;
         line-height: normal;
@@ -1184,6 +1208,7 @@ display: flex;
         top: 0;
         bottom: 0;
     }
+   
 
     .logo {
         position: relative;
@@ -1244,6 +1269,18 @@ display: flex;
     .about-text h2 {
         font-size: 30px;
         letter-spacing: 5px;
+    }
+     .about-img {
+        width: 220px;
+        height: 220px;
+
+        margin: 50px auto;
+         
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
     }
     
     .about-text p {
